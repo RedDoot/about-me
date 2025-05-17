@@ -1,0 +1,213 @@
+h1{
+color: black;
+font-size: 30px;
+}
+
+h2{
+color: black;
+font-size: 25px;
+}
+
+
+
+body{
+background-color: silver;
+}
+
+p{
+font-size: 15px;
+font-family: times-new-roman;
+}
+
+
+a:link{
+color: blue;
+font-size: 12px;
+}
+
+a:hover{
+color: yellow;
+font-size: 12px;
+}
+
+a:visited{
+color: purple;
+font-size: 12px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 100%;
+    grid-column-gap: 2%;
+    grid-row-gap: 5%;   
+}
+
+.grid-1{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255, 255, 0);
+    background-color: rgb(228, 105, 228);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: center;
+    @media screen and (max-width: 60em){
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+}
+.grid-1:hover{
+    background-color: purple;
+}
+
+.grid-2{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: center;
+    @media screen and (max-width: 60em){
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+}
+.grid-2:hover{
+    background-color: purple;
+}
+.grid-3{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: center;
+    @media screen and (max-width: 60em){
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+}
+.grid-3:hover{
+    background-color: purple;
+}
+.grid-4{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: center;
+    @media screen and (max-width: 60em){
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+}
+.grid-4:hover{
+    background-color: purple;
+}
+.grid-5{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: center;
+    @media screen and (max-width: 60em){
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+}
+.grid-5:hover{
+    background-color: purple;
+}
+
+.grid-6{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 1;
+    @media screen and (max-width: 60em){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 1;
+    }
+}
+.grid-7{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    padding: 1%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 1;
+    @media screen and (max-width: 60em){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 2;
+    }
+}
+.grid-8{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 2;
+    @media screen and (max-width: 60em){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 3;
+    }
+}
+.grid-9{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    padding: 1%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 2;
+    @media screen and (max-width: 60em){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 4;
+    }
+}
+.grid-10{
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: rgb(228, 105, 228);
+    padding: 1%;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    @media screen and (max-width: 60em){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 5;
+    }
+}
